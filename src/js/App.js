@@ -57,7 +57,7 @@ function App() {
       </>
     ):(
       <div id="summary">
-        <h2>Kitties you said YES to:</h2>
+        <h2>You said YES to {cats_accepted.length} kitties:</h2>
         {cats_accepted.length>0 ?(
           <div className="accepted-cats">
             {cats_accepted.map((cat, index)=>(
