@@ -12,7 +12,7 @@ h1, p{
   text-align: center;
 }
 
-#cat-img-div {
+#cat-img-div{
   position: relative;
   width: 90vw;
   max-width: 25em;
@@ -65,11 +65,11 @@ h1, p{
 }
 
 @media (min-width: 600px){ /* for bigger screen */
-  .arrow {
+  .arrow{
     font-size: 2em;
   }
 
-  .accepted-cat-img {
+  .accepted-cat-img{
     width: 20em;
     height: 20em;
     margin: 5px;
